@@ -1,0 +1,7 @@
+<h1>Уточки, прибауточки</h1>
+    {% for duck in ducks %}
+            <h2>{{ duck.display }}</h2>
+            <p>{{ duck.quack }}</p>
+            <p>{{ duck.fly }}</p>
+            <p>{{ duck.swim }}</p>
+    {% endfor %}
