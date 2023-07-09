@@ -1,0 +1,7 @@
+<h1>Меню</h1>
+<ul>
+    {% for beverage in beverages %}
+        <li>{{ beverage.description }} - {{ beverage.cost }} ₽</li>
+    {% endfor %}
+</ul>
+
